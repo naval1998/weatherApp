@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #25d31f;
+
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search input {
+    width: 20%;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.search button {
+    border-radius: 10px;
+    margin-left: 20px;
+
+}
+
+#temp {
+    font-size: 200%;
+}
+
+#Naval {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.sundegree {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+
+}
+
+.sundegree i {
+    font-size: 70px;
+}
+
+.wind {
+    margin-top: -20px;
+}
+
+#daily {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -20px;
+}
+
+.weekDay i {
+    font-size: 40px;
+}

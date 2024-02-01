@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Monitor by Naval</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="weather.css" />
+</head>
+
+<body>
+  <div class="weather"></div>
+  <div>
+    <div class="search">
+      <input type="text" name="" id="city" placeholder="Enter the city name....." />
+      <button type="button" title="button" onclick="weatherApiCall()">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </div>
+
+    <h5 id="Naval"></h5>
+    <div class="sundegree">
+      <div>
+        <p>
+          <i class="fa-solid fa-sun fa-spin fa-xl" style="color: #f9f106"></i>
+        </p>
+      </div>
+
+      <div id="temp">24&deg;C</div>
+      <div class="wind">
+        <div id="wind">Wind: 13 kmph</div>
+        <div id="humidity">Humidity: 0</div>
+        <div id="pressure">Pressure: 1022mb</div>
+        <div id="sunrise">sunrise:</div>
+        <div id="sunset">sunset:</div>
+        <div id="dt"></div>
+      </div>
+    </div>
+    <br /><br />
+    <div id="daily"></div>
+  </div>
+</body>
+<script src="index.js"></script>
+
+</html>
