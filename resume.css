@@ -1,0 +1,110 @@
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        head {
+            background-color: #0558b1;
+            color: #fff;
+            padding: 10px;
+        }
+
+        head title {
+            font-size: 24px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #007bff;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .container {
+            width: auto;
+            margin: 100px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+            border-radius: 5px;
+        }
+
+        h2,
+        h3 {
+            margin-top: 30px;
+            color: #007bff;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section-content {
+            margin-left: 20px;
+            text-align: justify;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th,
+        td {
+            border: 1px solid #c9c4c4;
+            padding: 10px;
+            text-align: left;
+            width: auto;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .declaration {
+            margin-top: 30px;
+            font-style: italic;
+            color: #555;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        .section-heading {
+            font-size: 24px;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .col {
+            flex-basis: calc(33.33% - 20px);
+            margin-bottom: 20px;
+        }
